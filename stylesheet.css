@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    margin: 50px;
+    margin: 0;
+   
     background-color: #1f2937;
 }
 
@@ -18,7 +19,8 @@ header {
 
 .placeholders {
     display: flex;
-    column-gap: 20px;
+    column-gap: 58px;
+    justify-content: space-between;
     margin-top: 20px;
     margin-right: 20px;
 } 
@@ -57,8 +59,9 @@ article {
 .imageplaceholder {
     background-color: grey;
     border: grey;
+    border-radius: 5px;
     border-style: solid;
-    height: 150px;
+    height: 180px;
     display: flex;
     text-align: center;
     flex-direction: row;
@@ -69,7 +72,7 @@ article {
 .images{
     display: flex;
     flex-direction: row;
-    background-color:#e5e7eb;
+    background-color:white;
     justify-content: space-evenly;
     height: auto;
     
@@ -84,6 +87,7 @@ article {
 
 .midsection {
     background-color: white;
+    margin-top: 10px;
 }
 
 .boxes {
@@ -96,6 +100,7 @@ article {
 }
 
 h4 {
+    padding: 10px;
     text-align: center;
     color:#1f2937;
     font-size: 28px;
@@ -113,21 +118,24 @@ h4 {
 
 .testimonial {
     display: flex;
-    margin-top: 50px;
-    background-color: #f9faf8 ;
+    height: 200px;
+    background-color: #d6d6c2 ;
     justify-content: center;
+    padding: 70px;
     
 }
 
-.testimonial > em {
+.testimonial > p {
     text-align: center;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
 }
-
-
 
 section {
     display: flex; 
     background: #1f2937;
+    flex: 2;
     color:#e5e7eb;
     justify-content: space-between;
 }
@@ -148,3 +156,39 @@ section {
     width: 80px;
 }
 
+.bottomsection {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-weight: bolder;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    border-color: #3882f6;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.actionbutton button {
+    background-color: #3882f6;
+    color: #d6d6c2;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+    border-width: 3px;
+
+}
